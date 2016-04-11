@@ -1,0 +1,86 @@
+.main-page-wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.page-header {
+  padding: 1em;
+}
+
+.page-header p {
+  font-size: 36px;
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link {
+
+}
+
+.info-card-container {
+  width: 90%;
+  height: 32em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 1em;
+  background: white;
+}
+
+.info-card {
+  width: 100%;
+  height: 31%;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.3)
+}
+
+.info-card img {
+  height: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#aboutus {
+  background:
+  linear-gradient(
+      rgba(188, 224, 191, .5),
+      rgba(188, 224, 191, .5)
+  ),
+  url("/img/happykidsgroup.jpg"),
+  no-repeat center;
+  background-size: cover;
+}
+
+#clubs {
+  background:
+  linear-gradient(
+      rgba(188, 224, 191, .5),
+      rgba(188, 224, 191, .5)
+  ),
+  url("/img/violin.jpg"),
+  no-repeat center;
+  background-size: cover;
+}
+
+#competition {
+  background:
+  linear-gradient(
+      rgba(188, 224, 191, .5),
+      rgba(188, 224, 191, .5)
+  ),
+  url("/img/concert.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.join-now {
+  width: 100%;
+  height: 10em;
+  background: #C2D9D2;
+  opacity: .5;
+}
