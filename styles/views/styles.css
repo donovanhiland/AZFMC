@@ -29,7 +29,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: auto;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   background: white;
 }
 
@@ -52,7 +52,7 @@
       rgba(188, 224, 191, .5),
       rgba(188, 224, 191, .5)
   ),
-  url("/img/happykidsgroup.jpg"),
+  url("../../img/happykidsgroup.jpg"),
   no-repeat center;
   background-size: cover;
 }
@@ -63,7 +63,7 @@
       rgba(188, 224, 191, .5),
       rgba(188, 224, 191, .5)
   ),
-  url("/img/violin.jpg"),
+  url("../../img/violin.jpg"),
   no-repeat center;
   background-size: cover;
 }
@@ -74,13 +74,21 @@
       rgba(188, 224, 191, .5),
       rgba(188, 224, 191, .5)
   ),
-  url("/img/concert.jpg") no-repeat center;
+  url("../../img/concert.jpg") no-repeat center;
   background-size: cover;
 }
 
-.join-now {
+.membership-container {
   width: 100%;
   height: 10em;
+  padding: 10px;
   background: #C2D9D2;
   opacity: .5;
+  text-align: left;
+}
+
+.membership-container-title {
+  font-size: 34px;
+  font-weight: 700;
+  display: block;
 }
